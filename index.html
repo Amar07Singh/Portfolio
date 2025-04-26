@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio_website_Amar</title>
+    <!-- Global Stylesheet -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/preloader.css">
+    <!-- Section-Specific Stylesheets -->
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/sections.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/education.css" />
+    <link rel="stylesheet" href="./css/services.css" />
+    <link rel="stylesheet" href="./css/testimonials.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="stylesheet" href="./css/media_queries.css" />
+    <!-- icons  -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="loading">
+      <div id="loader">
+          <div class="element">
+              <h3>Amar Singh</h3>
+          </div>
+          <div class="element">
+              <h3>A Web Developer</h3>
+          </div>
+          <div class="element">
+              <h3>Presents</h3>
+          </div>
+      </div>
+  </section>
+    <!-- Header Section -->
+    <header class="header">
+      <!-- logo -->
+      <a href="#home" class="logo"
+        >Amar
+        <span>Singh</span>
+      </a>
+
+      <!-- Hamburger menu Icon for mobile -->
+      <i class="bx bx-menu" id="menu_icon"></i>
+
+      <!-- Navigation bar -->
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!--  home Section -->
+      <section class="home fade_left" id="home">
+        <div class="home_content">
+          <!-- Introducing Heading -->
+          <h1>Hello, It's <span>Amar here.</span></h1>
+          <!-- Dynamic Text animation -->
+          <h3 class="text_animation">I'm a <span></span></h3>
+          <!-- personal description -->
+          <p>
+            I’m a second-year Computer Science undergraduate at VIT Chennai, specializing in AI and Machine Learning, with a passion for building intelligent and impactful solutions. Proficient in C, C++, and Python, I’ve successfully developed and deployed ML models, including a Retrieval-Augmented Generation (RAG) system.
+          </p>
+
+          <!-- Social media links -->
+          <div class="social_icons">
+            <a
+              href="https://www.linkedin.com/in/amar-singh103/"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a href="https://github.com/Amar07Singh" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.instagram.com/versedinchaos/" target="_blank"
+              ><i class="bx bxl-instagram-alt"></i
+            ></a>
+            <a href="https://x.com/amar_s103" target="_blank"><i class="bx bxl-twitter"></i></a>
+          </div>
+
+          <!-- Actions buttons -->
+          <div class="btn_group">
+            <a href="https://www.linkedin.com/in/amar-singh103/" target="_blank" class="btn">Hire</a>
+            <a href="#contact" class="btn">Contact</a>
+          </div>
+        </div>
+
+        <!-- profile image -->
+        <div class="home_img">
+          <img src="./images/home.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- Education Section -->
+      <section class="education fade_right" id="education">
+        <h2 class="heading">Education</h2>
+
+        <!-- Timeline for Education History -->
+        <div class="timeline_items">
+          <!-- High School Timeline Item  -->
+          <div class="timeline_item">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2019-20</div>
+            <div class="timeline_content">
+              <h3>High School (10th Grade)</h3>
+              <div>
+                <ul>
+                  <li>Prakash Vidyalaya</li>
+                  <li>Scored 92% in the 10th Board Examinations.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Senior Secondary Timeline Item  -->
+          <div class="timeline_item">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2021-23</div>
+            <div class="timeline_content">
+              <h3>Senior Secondary (Class 12)</h3>
+              <div>
+                <ul>
+                  <li>Kendriya Vidyalaya</li>
+                  <li>Percentage: 90%</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Undergrad Timeline item -->
+          <div class="timeline_item">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2023-27</div>
+            <div class="timeline_content">
+              <h3>B.Tech, Computer Science Engineering</h3>
+              <div>
+                <ul>
+                  <li>VIT Chennai</li>
+                  <li>GPA: 8.4</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Inrternship timeline item -->
+          <div class="timeline_item">
+            <div class="timeline_dot"></div>
+            <div class="timeline_date">2022</div>
+            <div class="timeline_content">
+              <h3>Internship</h3>
+              <div>
+                <ul>
+                  <li>Open Source Contributor</li>
+                  <li>TimeChain Labs</li>
+                  <li>Duration: 2 months</li>
+                  <li>Gained hands-on experience in blockchain.</li>
+                  <li>
+                    Worked on real-world based projects to enhance backend
+                    functionality and performance.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section class="project_section fade_left">
+        <h2 class="heading">My ProJects</h2>
+        <div class="project_container">
+          <!-- project card1 -->
+            <div class="project_box">
+                <div class="project_img">
+                    <img src="./images/image.png" alt="">
+                </div>
+                <div class="project_content">
+                    <h3>Mediapipe-based-bicep-curl-counter</h3>
+                    <p>Libraries used: Mediapipe, OpenCV, Numpy</p>
+                    <a href="https://github.com/Amar07Singh/Mediapipe-based-bicep-curl-counter" class="btn2">Source Code</a>
+                </div>
+            </div>
+            <!-- project card2 -->
+            <div class="project_box">
+                <div class="project_img">
+                    <img src="./images/image1.png" alt="">
+                </div>
+                <div class="project_content">
+                    <h3>RAG-based-medical-chatbot</h3>
+                    <p>LLm model used in it is - BioMistral/BioMistral-7B-GGUF
+                      LINK: https://huggingface.co/BioMistral/BioMistral-7B-GGUF</p>
+                    <a href="https://github.com/Amar07Singh/RAG-based-medical-chatbot" class="btn2">Source Code</a>
+                </div>
+            </div>
+
+            <!-- project card 3 -->
+            </div>
+            <div class="project_box">
+                <div class="project_img">
+                    <img src="./images/image3.png" alt="">
+                </div>
+                <div class="project_content">
+                    <h3>WordPress Auto Post</h3>
+                    <p>Automation in blog posting for a CMS</p>
+                    <a href="https://github.com/Amar07Singh/NewScraping_wordpress" class="btn2">Source Code</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+      <!-- Services Section -->
+      <section class="services fade_left" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services_container">
+          <!-- service card -1 -->
+          <div class="service_box">
+            <div class="service_info">
+              <h3>ML Models</h3>
+              <p>
+                My technical toolkit includes modern frameworks like Next.js and React.js, alongside Docker for building scalable and efficient applications. I thrive on solving complex problems and transforming data into actionable insights.
+
+
+              </p>
+            </div>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service_box">
+            <div class="service_info">
+              <h3>Frontend Development</h3>
+              <p>
+                Frontend development is the practice of building the user
+                interface (UI) of a website or web application. It involves
+                using technologies like HTML, CSS, and JavaScript to create the
+                structure, style, and interactive elements of a site. Frontend
+                developers focus on ensuring that the website is visually
+                appealing, responsive, and easy to navigate across different
+                devices and browsers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service card 3 -->
+          <div class="service_box">
+            <div class="service_info">
+              <h3>Backend Development</h3>
+              <p>
+                Backend development refers to the server-side part of web
+                development that focuses on creating the logic, databases, and
+                server-side applications that power the frontend of a website or
+                application. It involves working with server technologies,
+                databases (SQL or NoSQL), APIs, and server-side programming
+                languages like Java, Python, Node.js, or PHP.
+              </p>
+            </div>
+          </div>
+
+          <!-- Service card 4 -->
+          <div class="service_box">
+            <div class="service_info">
+              <h3>Testing</h3>
+              <p>
+                Testing is the process of evaluating software to identify and
+                fix bugs or issues, ensuring it works as expected. It involves
+                various types of tests, such as unit testing (testing individual
+                components), integration testing (testing how components work
+                together), system testing (testing the entire system), and user
+                acceptance testing (ensuring the product meets user needs).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      <section class="testimonials fade_right" id="testimonials">
+        <div class="testimonials_box">
+          <h2 class="heading">Testimonials</h2>
+
+          <div class="wrapper">
+            <!-- Testimonial item 1 -->
+            <div class="testimonial_item">
+              <img src="./images/testi1.jpg" alt="" />
+              <h2>Marilyn</h2>
+              <div class="rating">
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+              </div>
+              <p>
+                Amar is a talented and hardworking developer with an
+                incredible ability to break down complex problems into simple,
+                actionable solutions. Their expertise in backend development and
+                system optimization has significantly improved our project's
+                performance. Their proactive communication and dedication make
+                them a valuable team player.
+              </p>
+            </div>
+
+            <!-- Testimonial item 2 -->
+            <div class="testimonial_item">
+              <img src="./images/testi2.jpg" alt="" />
+              <h2>Julia</h2>
+              <div class="rating">
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+              </div>
+              <p>
+                I had the pleasure of working with Amar on a challenging
+                project, and their proficiency in responsive design and media
+                queries was a game-changer. They created a seamless user
+                experience across devices, exceeding our expectations. Their
+                attention to detail and passion for excellence truly stand out."
+              </p>
+            </div>
+
+            <!-- Testimonial item 3 -->
+            <div class="testimonial_item">
+              <img src="./images/testilast.webp" alt="" />
+              <h2>Rebecca</h2>
+              <div class="rating">
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+                <i class="bx bxs-star" id="star"></i>
+              </div>
+              <p>
+                Amar is a testing wizard! Their meticulous approach to quality
+                assurance ensured that our product was bug-free and reliable.
+                From automating tests to conducting thorough manual testing,
+                they left no stone unturned. Their commitment to quality has
+                been pivotal to our project's success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="">
+          <!-- Contact form fields -->
+          <div class="input_group">
+            <div class="input_box">
+              <input type="text" placeholder="Full Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+
+            <div class="input_box">
+              <input type="number" placeholder="Phone Number" />
+              <input type="text" placeholder="Subject" />
+            </div>
+          </div>
+
+          <div class="input_group_2">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <!-- social media links -->
+      <div class="social">
+        <a
+          href="https://www.linkedin.com/in/saurav-kumar-5690a1292/"
+          target="_blank"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/Saurav-sde" target="_blank"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.instagram.com/saurav_2713/" target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="https://x.com/SauravK06395033"><i class="bx bxl-twitter"></i></a>
+      </div>
+
+      <ul class="list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#home">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><button style = "padding: 10px 20px;
+        background-color: #008CBA;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;" id="toggleBtn">Toggle Mode</button> </li>
+      </ul>
+
+      <p class="copyright">&copy; Amar Singh | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
